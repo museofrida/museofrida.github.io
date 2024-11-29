@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title class="tit">Registro</title>
+    <!-- Bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="../css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+    <link href="../css/styles.css" rel="stylesheet">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	  <style>
+	.container-fluid.barranav{
+	    background-color: white;
+	 }
+	.logo_inicio{
+		width: 60px;
+		margin-right: 20px;
+	}
+	h2{
+	    color:  #333C84;
+	}
+	.nav-item.active{
+		background-color: #333C84;
+		border-radius: 5px;
+		color: white;
+	}
+		  a{
+			  color:white
+		  }
+		  a:hover{
+			  color:white;
+		  }
+	  </style>
+</head>
+  <body>
+	  <div class="container-fluid barranav">
+       <div class="container">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+			 <a href="../index.html"><img class="logo_inicio" src="../images/museo-frida-kahlo-logo.png" alt="logotipo del museo"></a>
+		   <a class="navbar-brand" href="../index.html"><h2 class="animate__animated animate__zoomIn">Museo Frida Kahlo</h2></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent1">
+             <ul class="navbar-nav ml-auto">
+               <li class="nav-item"> <a class="nav-link" href="museo.html">El museo</a> </li>
+			   <li class="nav-item"> <a class="nav-link" href="actividades.html">Actividades</a> </li>
+			   <li class="nav-item"> <a class="nav-link" href="planeatuvisita.html">Planea tu visita</a> </li>
+			   <li class="nav-item active"> <a class="nav-link museo" href="form.html" style="color: white;"> Boletos <span class="sr-only"></span></a> </li>
+             </ul>
+           </div>
+         </nav>
+       </div>
+	 </div>
+  <div class="container">
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Columna izquierda: Imágenes -->
+        <div class="col-md-6">
+          <section class="seccion_1">
+			<div class="container">
+			  <div class="img-comp-container">
+				<div class="img-comp-img col-xl-11">
+				  <img src="../images/15.webp.png" alt="ilustración" />
+				</div>
+				<div class="img-comp-img img-comp-overlay col-xl-11">
+				  <img src="../images/14.webp.png" alt="fotografía" />
+				</div>
+			  </div>
+			</div>
+		  </section>  
+        </div>
+		  
+
+        <!-- Columna derecha: Formulario -->
+        <div class="col-md-6">
+          <form id="regForm" action="">
+            <h1 class="text-center">Registro</h1>
+
+            <!-- Paso 1 -->
+            <div class="tab">Nombre:
+              <p><input class="form-control mb-2" placeholder="Nombre" oninput="this.className = ''"></p>
+              <p><input class="form-control mb-2" placeholder="Apellido" oninput="this.className = ''"></p>
+            </div>
+
+            <!-- Paso 2 -->
+            <div class="tab">Información de contacto:
+              <p><input class="form-control mb-2" placeholder="Correo electrónico" oninput="this.className = ''"></p>
+              <p><input class="form-control mb-2" placeholder="Teléfono" oninput="this.className = ''"></p>
+            </div>
+
+            <!-- Paso 4 -->
+            <div class="tab">Inicio de sesión:
+              <p><input class="form-control mb-2" placeholder="Nombre de usuario" oninput="this.className = ''"></p>
+              <p><input class="form-control mb-2" placeholder="Contraseña" oninput="this.className = ''"></p>
+            </div>
+
+            <!-- Botones de navegación -->
+            <div class="d-flex justify-content-between mt-3">
+              <button type="button" id="prevBtn" class="btn btn-secondary" onclick="nextPrev(-1)">Anterior</button>
+              <button type="button" id="nextBtn" class="btn btn-primary" onclick="nextPrev(1)">Siguiente</button>
+            </div>
+
+            <!-- Indicadores de pasos -->
+            <div class="text-center mt-4">
+              <span class="step"></span>
+              <span class="step"></span>
+              <span class="step"></span>
+              <span class="step"></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div> 
+
+<img src="../images/plecaverde.png" class="img-fluid pleca" alt="Placeholder image">
+<div class="container-fluid pie">
+  <div class="row">
+    <div class="col-xl-2 col-sm-3 offset-xl-1 col-3"> <a href="../index.html"><img src="../images/logobn.png" class="img-fluid" alt="Placeholder image"></a></div>
+    <div class="col-xl-3 col-sm-3 col-9">&nbsp;
+	  <h4>Ubicado en:</h4>
+		
+		<p class="pietexto" ><a href="https://maps.app.goo.gl/2fi1W3m7MdM9CS2B7">Londres 247, Col. Del Carmen
+Coyoacán, 04100, CDMX, México</a></p>
+    </div>
+    <div class="col-xl-1 col-sm-1">&nbsp;</div>
+    <div class="col-xl-5 col-sm-5">
+<h4>¡Síguenos!</h4>
+      <div class="row">
+        <div class="col-xl-2 col-sm-3 col-3"><a href="https://www.facebook.com/museofridakahlo/?locale=es_LA"><img src="../images/face.png" alt="Placeholder image" class="img-fluid"></a></div>
+        <div class="col-xl-2 col-sm-3 col-3"><a href="https://www.instagram.com/museofridakahlo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="../images/insta.png" class="img-fluid" alt="Placeholder image"></a></div>
+        <div class="col-xl-2 col-sm-3 col-3"><a href="https://twitter.com/museofridakahlo?lang=es"><img src="../images/x.png" class="img-fluid" alt="Placeholder image"></a></div>
+        <div class="col-xl-2 col-sm-3 col-3"><a href="https://youtube.com/@museosfridakahloyanahuacal4492?si=-H5WdJaqghyHV4PI"><img src="../images/youtube.png" class="img-fluid" alt="Placeholder image"></a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="../js/slider.js"></script>
+  </body>
+</html>

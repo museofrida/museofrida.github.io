@@ -1,0 +1,748 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.navbar-brand h2 {
+  font-size: 2rem;
+}
+@media (max-width: 576px) {
+  .navbar-brand h2 {
+    font-size: 1rem;
+  }
+}
+.logo_inicio{
+	width: 60px;
+	margin-right: 20px;
+}
+.container{
+	color: black;
+	background-color:white;
+	padding: 0px;	
+}
+.container-fluid.pie{
+	background-color:#239dd1;
+}
+
+h2{
+  font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #229CD1;
+}
+h4{
+	font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style: normal;
+	color:white;
+}
+.container-fluid.pie{
+	padding: 20px;
+}
+.redes {
+  width: 40px;
+  margin-right: 20px;
+}
+.pietexto a{
+	color: white;
+}
+
+
+
+th, td, p, ul, ol {
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+a{
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.nav-item.active{
+  background-color:#239dd1;
+  border-radius: 5px;
+  color: white;
+}
+.seccion1{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	color: #229CD1;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+
+.img2{
+	margin: 0px;
+}
+
+
+
+.tablas{
+
+	margin: 0px;
+	padding: 0px;
+	
+}
+	
+
+#tabla_horario{
+	text-align: center;
+	width: 100%;
+	border-collapse: separate; 
+    border-spacing: 4px;
+	border-right: none;
+	margin: 0px;
+}
+
+#tabla_horario2{
+	text-align: center;
+	width: 100%;
+	border-collapse: separate; 
+    border-spacing: 4px;
+	border-right: none;
+	
+}
+
+.titulo_tabla{
+  font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #229CD1;
+}
+
+
+.table_uno th{
+	background-color: #229CD1;
+	color: white;
+	padding: 5px;
+	font-weight: normal;
+	border-style: solid;
+	border-radius: 6px;;
+	border-color: #229CD1;
+	border-spacing: 20px;
+	
+}
+
+.table_uno td{
+	background-color: white;
+	border-color: #229CD1;
+	color: black;
+	padding: 5px;
+	font-weight: normal;
+	border-style: solid;
+	border-width: 4px;
+	border-radius: 6px;
+	border-spacing: 20px;
+	
+}
+
+
+#tabla_especial{
+	text-align: center;
+	width: 100%;
+	border-collapse: separate; 
+    border-spacing: 3px;
+	
+}
+
+
+
+/*PARTE2*/
+
+.seccion2{
+	margin-top: 10px;
+	background-color: #229CD1;
+	padding-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	color: white;
+	
+}
+
+.tablas_tarifa{
+	padding-left: 10px;
+	padding-right: 10px;	
+}
+
+.tarifas{
+	color: white;
+}
+
+#tabla_1{
+	padding-left: 4px;
+	border-left-style: none;
+	
+	
+	
+}
+
+
+#tabla_1 td{
+	border-right-style: solid;
+	border-right-color: white;
+	border-right-width: 4px;
+	border-top-style: solid;
+	border-top-color: white;
+	border-top-width: 4px;
+	padding-left: 100px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	border-left-style: none;
+	border-bottom-style: none;
+}
+
+#tabla_2{
+	padding-left: 4px;
+	margin-top: 20px;
+	
+}
+
+#tabla_2 td{
+	border-right-style: solid;
+	border-right-color: white;
+	border-right-width: 4px;
+	border-top-style: solid;
+	border-top-color: white;
+	border-top-width: 4px;
+	padding-left: 100px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	border-left-style: none;
+	border-bottom-style: none;
+}
+
+.tarjetas1{
+	margin-right: 10px;
+	margin-left: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+		
+}
+
+.caja2{
+	background-color: white;
+	color: black;
+	width: 100%;
+	margin-top: 45px;
+	padding-top: 30px;
+	border-radius: 4px;
+	padding-bottom: 30px;
+	padding-left:20px;
+	padding-right: 20px;
+}
+
+.caja2_1{
+	background-color: white;
+	color: black;
+	border-radius: 4px;
+	margin-top: 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	 
+}
+
+.caja2_1, ul{
+	padding-left: 20px;
+	padding-right: 15px;
+}
+
+
+.btn-sm {
+	background-color: #F39327;
+	border-style: none;
+	font-family: "Calistoga", serif;
+    font-weight: 500;
+    font-style: normal;
+	color: white;
+	
+}
+
+.btn-sm:hover{
+	background-color: #F36100;
+	border-style: none;
+	font-family: "Calistoga", serif;
+    font-weight: 500;
+    font-style: normal;
+	color: white;
+}
+
+.boton2{
+	color: white;
+	border-style: none;
+	font-family: "Calistoga", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.boton2:hover{
+	color: white;
+	text-decoration: none;
+	
+}
+
+.texto_s2{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	width: 100%;
+}
+
+/*PARTE3*/
+
+.seccion3{
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	/*padding-left: 10px;
+	padding-right: 10px;*/
+ }
+
+.factura{
+	/*margin-bottom: px;*/
+}
+
+.correo{
+	font-weight: 500;
+	font-size: 17px;
+	color: #229CD1;
+}
+
+.correo:hover{
+	font-size: 17px;
+	color: #1379A6;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.info_compra{
+	padding-left: 3px;
+	padding-right: 3px;
+	width: 100%;
+}
+
+.cajas2{
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.cartainfo{
+	background-color: #229CD1;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	height: 300px;
+	border-radius: 6px;
+	text-align: left;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	
+	
+}
+
+.titulo_dato{
+	color: white;
+	text-align: center;
+	margin-top: 1px;
+}
+
+.compra {
+	padding-bottom: 25px;
+	list-style: disc;
+	line-height: 25px;
+}
+
+.info_1{
+  
+  background-color: white;
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  height: 165px;
+  padding-top: 25px;
+  padding-bottom: 10px;	
+  border-radius: 6px;
+  padding-left: 40px;
+  padding-right: 30px;
+ text-align: left;
+	
+}
+
+.info_compra{
+	width: 100%;
+}
+
+.boton_importante{
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+	
+	
+}
+
+.boton_interior1{
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.btn-sm2{
+	background-color: #229CD1;
+	border-style: none;
+	font-family: "Calistoga", serif;
+    font-weight: 500;
+    font-style: normal;
+	color: white;
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	
+	
+	
+}
+
+.btn-sm2:hover{
+	background-color: #177097;
+	border-style: none;
+	font-family: "Calistoga", serif;
+    font-weight: 500;
+    font-style: normal;
+	color: white;
+	
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+ background-color: #229CD1;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative; /* Esto asegura que el 'float: right;' funcione */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute; /* Posiciona absolutamente dentro de .modal-content */
+  top: 10px;  /* Ajusta la distancia desde la parte superior */
+  right: 10px; /* Ajusta la distancia desde el lado derecho */
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/*PARTE4_REGLAMENTO*/
+.accordion1{
+	margin-top: 30px;
+}
+
+.card2{
+	text-align: center;
+	background-color: #7BC8E9;
+	color: white;
+	
+}
+
+.card2:hover{
+	background-color: #229CD1; 
+}
+
+.card2 a{
+	text-decoration-line: none;
+	color: white;
+}
+
+.card-body2{
+	background-color: white;
+	color: black;
+	border-style: solid;
+	border-color: #7BC8E9;
+	border-width: 4px;
+	border-radius: 4px;
+	text-align: left;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-left: 0px;
+	padding-left: 0px;
+	
+	
+	
+}
+
+.icono_regla{
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 0px;
+}
+
+.personas_admi{
+	margin-left: 0px;
+	padding-left: 20px;
+	padding-top: 6px;
+}
+
+.reglamento_1{
+	list-style: disc;
+}
+
+/*LINEA*/
+.linea{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+/*LINEA*/
+
+
+/*PARTE5*/
+
+.seccion5{
+	width: 100%;
+	display: block;
+}
+
+.botones{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.tabla5 th, .tabla5 td{
+	border-style: solid;
+	border-width: 4px;
+	border-color: white;
+	padding: 4px;
+}
+
+.tabla5_5{
+	margin-top: 10px;
+}
+
+.tabla5_5 th, .tabla5_5 td{
+	margin-top: 30px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: white;
+	padding: 4px;
+}
+
+
+/* Botones */
+.btn-sm2 {
+  background-color: #229CD1;
+  color: white;
+  font-family: "Calistoga", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-sm2:hover {
+  background-color: #177097;
+}
+
+/* Modales */
+.modal {
+  display: none; /* Ocultar modales por defecto */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Fondo semitransparente */
+}
+
+.modal-content {
+  width: 60%;
+  position: relative;
+	
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
+
+.close {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.correo2{
+	font-weight: 500;
+	font-size: 17px;
+	color: white;
+}
+
+.correo2:hover{
+	font-size: 17px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.img_5{
+	width: 100%;
+
+}
+
+.img_5_5{
+	
+	margin-top: 0px;
+}
+
+.botones{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px; 
+}
+
+
+/*PARTE6_SERVICIOS*/
+
+.seccion6{
+	width: 100%;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.accordion2{
+	margin-top: 30px;
+}
+
+.card3{
+	text-align: center;
+	background-color: #7BC8E9;
+	color: white;
+	
+}
+
+.card3:hover{
+	background-color: #229CD1; 
+}
+
+.card3 a{
+	text-decoration-line: none;
+	color: white;
+}
+
+.card-body3 {
+	background-color: white;
+	color: black;
+	border-style: solid;
+	border-color: #7BC8E9;
+	border-width: 4px;
+	border-radius: 4px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	margin-left: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	
+	
+}
+
+.videoguia{
+	text-align: left;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	display: flex;
+}
+
+.accesibilidad{
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-top: 6px;
+}
+
+.servicios_1{
+	list-style: disc;
+}
+
+.tabla6{
+	width: 100%;
+}
+
+.tabla6 th, .tabla6 td{
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	padding: 4px;
+	padding: 10px;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light a .logo_inicio {
+}
